@@ -33,7 +33,7 @@
 @property (nonatomic, readonly) NSString* scheme;
 @property (nonatomic, readonly) NSInteger specificity;
 @property (nonatomic, readonly) Class     classForInvocation;
-@property (nonatomic)           SEL       selector;
+@property (nonatomic, assign)           SEL       selector;
 
 - (void)setSelectorIfPossible:(SEL)selector;
 
